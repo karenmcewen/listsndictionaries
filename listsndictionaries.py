@@ -8,6 +8,7 @@
 
 # List - ordered and changeable. Allows duplicate members. Use square brackets []
 # list elements do not all have to be the same type
+print('\n---------------LIST EXAMPLE---------------\n')
 mylist = [1, "red", "true", 3.14159]
 print(mylist)
 # list indices start at 0
@@ -19,6 +20,7 @@ print(mylist)
 
 # Tuple - ordered and unchangeable. Allows duplicate members. Use parenthesis ()
 # tuple elements do not all have to be the same type
+print('\n---------------TUPLE EXAMPLE---------------\n')
 mytuple = ("mom", "dad", 2.5)
 print(mytuple)
 print('The second element in the tuple is ' + mytuple[1])
@@ -33,6 +35,12 @@ print('The second element in the tuple is still ' + mytuple[1])
 
 
 # Set -  unordered and unindexed. No duplicate members. Use curly brackets {}
+print('\n---------------SET EXAMPLE---------------\n')
 myset = {'apple', 'orange', 'banana', 'apricot'}
 print(myset)
+myset.add('cantalope')
+print(myset)
 
+
+# Dictionary - unordered, changeable and indexed. No duplicate members. Use curly brackets and colon{key:value}
+print('\n---------------DICTIONARY EXAMPLE---------------\n')
