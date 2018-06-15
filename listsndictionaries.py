@@ -30,3 +30,9 @@ except TypeError:
         print('Trying to change a tuple element results in a TypeError')
 
 print('The second element in the tuple is still ' + mytuple[1])
+
+
+# Set -  unordered and unindexed. No duplicate members. Use curly brackets {}
+myset = {'apple', 'orange', 'banana', 'apricot'}
+print(myset)
+
