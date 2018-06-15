@@ -10,6 +10,7 @@
 # list elements do not all have to be the same type
 print('\n---------------LIST EXAMPLE---------------\n')
 mylist = [1, "red", "true", 3.14159]
+print('original list:')
 print(mylist)
 # list indices start at 0
 print('The second element in the list is ' + mylist[1])
@@ -26,6 +27,7 @@ print(mytuple)
 print('The second element in the tuple is ' + mytuple[1])
 # tuple elements cannot be changed - trying to change them results in a TypeError
 try:
+        print('Try to change the second element from dad to sister: \n')
         mytuple[1] = "sister"
         print(mytuple)
 except TypeError:
