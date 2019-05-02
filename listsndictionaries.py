@@ -25,9 +25,9 @@ print('\n---------------TUPLE EXAMPLE---------------\n')
 mytuple = ("mom", "dad", 2.5)
 mytuple2 = ("Amy", "Gabrielle", "Karen", "Santa Claus")
 print(mytuple)
-print('The second element in the tuple is ' + mytuple[1])
+print('The second element in this tuple is ' + mytuple[1])
 print(mytuple2)
-print('The second element in the tuple is ' + mytuple2[1])
+print('The third element in the second tuple is ' + mytuple2[3])
 # tuple elements cannot be changed - trying to change them results in a TypeError
 try:
         print('Try to change the second element from dad to sister: \n')
