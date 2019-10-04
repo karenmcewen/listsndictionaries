@@ -47,10 +47,14 @@ myset.add('cantalope')
 print(myset)
 
 
-# Dictionary - unordered, changeable and indexed. No duplicate members. Use curly brackets and colon{key:value}
+# Dictionary - unordered, changeable and indexed by key:value pairs.
+# #No duplicate members allowed. Use curly brackets and colon{key:value}
 print('\n---------------DICTIONARY EXAMPLE---------------\n')
 mydictionary = {"apple": "red", "orange": "orange", "banana": "yellow", "grape": "green"}
 print(mydictionary)
 print(mydictionary["apple"])
 for fruit in mydictionary:
         print("The " + fruit + " is " + mydictionary[fruit])
+
+print('original dictionary')
+print(mydictionary)
