@@ -30,14 +30,13 @@ print(mytuple2)
 print('The third element in the second tuple is ' + mytuple2[3])
 # tuple elements cannot be changed - trying to change them results in a TypeError
 try:
-        print('Try to change the second element from dad to sister: \n')
-        mytuple[1] = "sister"
-        print(mytuple)
+    print('Try to change the second element from dad to sister: \n')
+    mytuple[1] = "sister"
+    print(mytuple)
 except TypeError:
-        print('Trying to change a tuple element results in a TypeError')
+    print('Trying to change a tuple element results in a TypeError')
 
 print('The second element in the tuple is still ' + mytuple[1])
-
 
 # Set -  unordered and unindexed. No duplicate members. Use curly brackets {}
 print('\n---------------SET EXAMPLE---------------\n')
@@ -46,7 +45,6 @@ print(myset)
 myset.add('cantalope')
 print(myset)
 
-
 # Dictionary - unordered, changeable and indexed by key:value pairs.
 # #No duplicate members allowed. Use curly brackets and colon{key:value}
 print('\n---------------DICTIONARY EXAMPLE---------------\n')
@@ -54,7 +52,7 @@ mydictionary = {"apple": "red", "orange": "orange", "banana": "yellow", "grape":
 print(mydictionary)
 print(mydictionary["apple"])
 for fruit in mydictionary:
-        print("The " + fruit + " is " + mydictionary[fruit])
+    print("The " + fruit + " is " + mydictionary[fruit])
 
 print('original dictionary')
 print(mydictionary)
@@ -66,7 +64,7 @@ print(mybooks)
 mybooks.append("Sci-Fi Fav")
 print(mybooks)
 # insert adds at the given position
-mybooks.insert(2,"Cook with Book")
+mybooks.insert(2, "Cook with Book")
 print(mybooks)
 # sort will sort alphanumerically by default
 mybooks.sort()
@@ -84,3 +82,6 @@ print("Oops! Looks like I got a double. I will remove it!")
 extra_book = "Cook with Book"
 mybooks.remove(extra_book)
 print("My books in alphabetical order: ", mybooks)
+# len tells how many are in the list
+
+print("I have ", len(mybooks), " books!")
