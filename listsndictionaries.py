@@ -71,3 +71,16 @@ print(mybooks)
 # sort will sort alphanumerically by default
 mybooks.sort()
 print("My books in alphabetical order: ", mybooks)
+# pop pops up the final item in the list but keeps it in limbo so you can continue to use it a bit
+last_book = mybooks.pop()
+print("the last book in my collection is: ", last_book)
+print("I gave it up seeking the Holy Grail.  My current books are: ", mybooks)
+
+mybooks.append("Cook with Book")
+print(mybooks)
+mybooks.sort()
+print("My books in alphabetical order: ", mybooks)
+print("Oops! Looks like I got a double. I will remove it!")
+extra_book = "Cook with Book"
+mybooks.remove(extra_book)
+print("My books in alphabetical order: ", mybooks)
