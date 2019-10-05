@@ -83,5 +83,8 @@ extra_book = "Cook with Book"
 mybooks.remove(extra_book)
 print("My books in alphabetical order: ", mybooks)
 # len tells how many are in the list
-
 print("I have ", len(mybooks), " books!")
+
+#looping with lists
+for books in mybooks:
+    print(books)
