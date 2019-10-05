@@ -58,3 +58,16 @@ for fruit in mydictionary:
 
 print('original dictionary')
 print(mydictionary)
+
+# Changing lists
+mybooks = ["Python Crash Course", "Big Data", "Murder Mystery Mayhem"]
+print(mybooks)
+# append adds to the end of the list
+mybooks.append("Sci-Fi Fav")
+print(mybooks)
+# insert adds at the given position
+mybooks.insert(2,"Cook with Book")
+print(mybooks)
+# sort will sort alphanumerically by default
+mybooks.sort()
+print("My books in alphabetical order: ", mybooks)
