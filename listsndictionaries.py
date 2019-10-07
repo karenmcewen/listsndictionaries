@@ -101,4 +101,11 @@ while i<len(mybooks):
     i = i + 1
 print("done with books!")
 
+# making a list of numbers
+# range(x,y,z) starts with x, ends with y-1, z is interval between numbers
+
+for value in range(1,20,3):
+    print(value)
+
+
 
