@@ -103,9 +103,21 @@ print("done with books!")
 
 # making a list of numbers
 # range(x,y,z) starts with x, ends with y-1, z is interval between numbers
-
 for value in range(1,20,3):
     print(value)
 
+# creating a new list of squares of numbers
+# starting with an empty list
+squares = []
+for value in range(1,11):
+    square = value**2
+    squares.append(square)
+    print("square of", value, "is", square, "and cube is", value**3)
+print(squares)
 
+# you can shorten the for statement by combining lines
+cubes = []
+for value in range(1,11):
+    cubes.append(value**3)
 
+print(cubes)
