@@ -88,3 +88,9 @@ print("I have ", len(mybooks), " books!")
 #looping with lists
 for books in mybooks:
     print(books)
+
+i=0
+while i<len(mybooks):
+    print(mybooks[i])
+    i = i + 1
+print("done with books!")
