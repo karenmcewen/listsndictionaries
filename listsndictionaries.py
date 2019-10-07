@@ -85,12 +85,19 @@ print("My books in alphabetical order: ", mybooks)
 # len tells how many are in the list
 print("I have ", len(mybooks), " books!")
 
-#looping with lists
+# looping with lists
 for books in mybooks:
     print(books)
 
-i=0
+# f before a string will insert its value
+for books in mybooks:
+    print(f"{books} is one of my favorite books!")
+
+# while loop
+i = 0
 while i<len(mybooks):
     print(mybooks[i])
     i = i + 1
 print("done with books!")
+
+
