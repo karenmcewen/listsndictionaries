@@ -90,8 +90,9 @@ for books in mybooks:
     print(books)
 
 # f before a string will insert its value
+# .title() changes list item to title case (first letter is capitalized)
 for books in mybooks:
-    print(f"{books} is one of my favorite books!")
+    print(f"{books.title()} is one of my favorite books!")
 
 # while loop
 i = 0
