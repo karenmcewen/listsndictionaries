@@ -125,3 +125,21 @@ print(cubes)
 # list comprehensions - allows you to combine elements into a single line of code
 squares = [value**2 for value in range(1,11)]
 print(squares)
+
+# exercise 4.3 count from 1 to 20 using a for loop:
+for value in range(1,21):
+    print(value)
+
+# exercise 4.5 make a list of one to one million, then use a for loop to sum them up
+amillion = []
+for counter in range(1,1000001):
+    amillion.append(counter)
+
+print(amillion[0])
+print(amillion[-1])
+
+millionsum=0
+for counter in range(1,1000001):
+    millionsum = sum([amillion[counter-1]],millionsum)
+    if counter == 1000000:
+        print("The sum from 1 to a million is " + str(millionsum))
