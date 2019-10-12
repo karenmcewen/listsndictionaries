@@ -143,3 +143,7 @@ for counter in range(1,1000001):
     millionsum = sum([amillion[counter-1]],millionsum)
     if counter == 1000000:
         print("The sum from 1 to a million is " + str(millionsum))
+
+# exercise 4.9 cube comprehension
+cubes2 = [value**3 for value in range(1,11)]
+print(cubes2)
