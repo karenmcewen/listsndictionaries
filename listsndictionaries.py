@@ -148,3 +148,6 @@ for counter in range(1, 1000001):
 # exercise 4.9 cube comprehension
 cubes2 = [value ** 3 for value in range(1, 11)]
 print(cubes2)
+
+# using only part of a list
+
