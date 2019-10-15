@@ -21,6 +21,7 @@ print(mylist)
 
 # Tuple - ordered and unchangeable. Allows duplicate members. Use parenthesis ()
 # tuple elements do not all have to be the same type
+# despite the name, tuples do not have to have only three options!
 print('\n---------------TUPLE EXAMPLE---------------\n')
 mytuple = ("mom", "dad", 2.5)
 mytuple2 = ("Amy", "Gabrielle", "Karen", "Santa Claus")
@@ -96,54 +97,54 @@ for books in mybooks:
 
 # while loop
 i = 0
-while i<len(mybooks):
+while i < len(mybooks):
     print(mybooks[i])
     i = i + 1
 print("done with books!")
 
 # making a list of numbers
 # range(x,y,z) starts with x, ends with y-1, z is interval between numbers
-for value in range(1,20,3):
+for value in range(1, 20, 3):
     print(value)
 
 # creating a new list of squares of numbers
 # starting with an empty list
 squares = []
-for value in range(1,11):
-    square = value**2
+for value in range(1, 11):
+    square = value ** 2
     squares.append(square)
-    print("square of", value, "is", square, "and cube is", value**3)
+    print("square of", value, "is", square, "and cube is", value ** 3)
 print(squares)
 
 # you can shorten the for statement by combining lines
 cubes = []
-for value in range(1,11):
-    cubes.append(value**3)
+for value in range(1, 11):
+    cubes.append(value ** 3)
 
 print(cubes)
 
 # list comprehensions - allows you to combine elements into a single line of code
-squares = [value**2 for value in range(1,11)]
+squares = [value ** 2 for value in range(1, 11)]
 print(squares)
 
 # exercise 4.3 count from 1 to 20 using a for loop:
-for value in range(1,21):
+for value in range(1, 21):
     print(value)
 
 # exercise 4.5 make a list of one to one million, then use a for loop to sum them up
 amillion = []
-for counter in range(1,1000001):
+for counter in range(1, 1000001):
     amillion.append(counter)
 
 print(amillion[0])
 print(amillion[-1])
 
-millionsum=0
-for counter in range(1,1000001):
-    millionsum = sum([amillion[counter-1]],millionsum)
+millionsum = 0
+for counter in range(1, 1000001):
+    millionsum = sum([amillion[counter - 1]], millionsum)
     if counter == 1000000:
         print("The sum from 1 to a million is " + str(millionsum))
 
 # exercise 4.9 cube comprehension
-cubes2 = [value**3 for value in range(1,11)]
+cubes2 = [value ** 3 for value in range(1, 11)]
 print(cubes2)
