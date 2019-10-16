@@ -151,3 +151,10 @@ print(cubes2)
 
 # using only part of a list
 
+# if statements
+pizza_toppings = ["pepperoni", "olives", "mushrooms", "sausage"]
+topping_choice = "sausage"
+if topping_choice not in pizza_toppings:
+    print(f"{topping_choice.title} is not available today.")
+elif topping_choice in pizza_toppings:
+    print("Topping is available!")
