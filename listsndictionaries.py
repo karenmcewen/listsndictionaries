@@ -158,3 +158,18 @@ if topping_choice not in pizza_toppings:
     print(f"{topping_choice.title} is not available today.")
 elif topping_choice in pizza_toppings:
     print("Topping is available!")
+
+# if elif else
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+color_choice = input('What is your favorite color? ')
+if color_choice not in colors:
+    answer = input('would you like to add that color to the list? yes/no ')
+    if answer == 'yes':
+        colors.append(color_choice)
+        print(colors)
+    elif answer == 'no':
+        print('Your color will not be added to the list')
+    else:
+        print(colors)
+else:
+    print(f'{color_choice} is a great color!')
