@@ -173,3 +173,9 @@ if color_choice not in colors:
         print(colors)
 else:
     print(f'{color_choice} is a great color!')
+
+# Dictionary practice
+fruit1 = {"type": "apple", "color": "red", "size": "medium", "number": 5}
+fruit2 = {"type": "banana", "color": "yellow", "size": "large", "number": 6}
+fruit3 = {"type": "orange", "color": "orange", "size": "medium", "number": 2}
+print(fruit1)
