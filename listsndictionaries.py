@@ -179,3 +179,13 @@ fruit1 = {"type": "apple", "color": "red", "size": "medium", "number": 5}
 fruit2 = {"type": "banana", "color": "yellow", "size": "large", "number": 6}
 fruit3 = {"type": "orange", "color": "orange", "size": "medium", "number": 2}
 print(fruit1)
+favorite_fruit = input('what is your favorite fruit?')
+# there is a problem with the way I am calling the dictionary entry - need to look this up
+if favorite_fruit == fruit1:
+    print("your fruit is available!")
+elif favorite_fruit == fruit2:
+    print("your fruit is available!")
+elif favorite_fruit == fruit3:
+    print("your fruit is available!")
+else:
+    print("sorry, your fruit is not available.")
