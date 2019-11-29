@@ -182,10 +182,10 @@ print(fruit1)
 favorite_fruit = input('what is your favorite fruit?')
 # to call dictionary entry, use 'in' and dictionaryname["keyname"]
 if favorite_fruit in fruit1["type"]:
-    print("your fruit is available!")
+    print(f'Your fruit is available!  There are {fruit1["number"]} left.')
 elif favorite_fruit in fruit2["type"]:
-    print("your fruit is available!")
+    print(f'Your fruit is available!  There are {fruit2["number"]} left.')
 elif favorite_fruit in fruit3["type"]:
-    print("your fruit is available!")
+    print(f'Your fruit is available!  There are {fruit3["number"]} left.')
 else:
-    print("sorry, your fruit is not available.")
+    print("Sorry, your fruit is not available.")
